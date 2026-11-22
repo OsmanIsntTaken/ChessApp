@@ -1,6 +1,6 @@
 const config = {
   appId: 'com.sahmat.chess',
-  appName: 'ŞahMat',
+  appName: 'OpenChess',
   webDir: 'dist',
   bundledWebRuntime: false,
   server: {
