@@ -32,6 +32,19 @@ jobs:
       - name: Build web app
         run: npm run build
 
+      - name: Prepare Capacitor config for CI
+        run: |
+          mv capacitor.config.ts capacitor.config.ts.ci-backup
+          cat > capacitor.config.json <<'EOF'
+          {
+            "appId": "com.sahmat.chess",
+            "appName": "ŞahMat",
+            "webDir": "dist",
+            "server": { "androidScheme": "https" },
+            "android": { "backgroundColor": "#262421" }
+          }
+          EOF
+
       - name: Initialize and sync Android project
         run: |
           npx cap add android
