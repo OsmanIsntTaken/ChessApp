@@ -1,0 +1,6 @@
+{
+  "name": "ŞahMat — Akıllı Satranç & Analiz",
+  "description": "Çevrimiçi ve çevrimdışı oynanabilen, 100-3200 ELO özelleştirilebilir yapay zekalı, canlı değerlendirme çubuklu ve detaylı oyun analizli modern satranç platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
