@@ -1,4 +1,5 @@
 name: Build OpenChess Android APK
+run-name: Rebuild OpenChess APK
 
 on:
   workflow_dispatch:
